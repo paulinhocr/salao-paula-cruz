@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salão de Beleza</title>
+  <style>
+    /* Estilo geral do site */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+
+    header {
+      background-color: #ff69b4;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    nav {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #ff69b4;
+      font-weight: bold;
+      margin: 0 15px;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      background: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #ff69b4;
+      border-bottom: 2px solid #ff69b4;
+      padding-bottom: 5px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+
+    table th, table td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: left;
+    }
+
+    table th {
+      background-color: #ff69b4;
+      color: white;
+    }
+
+    footer {
+      background-color: #ff69b4;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 20px;
+    }
+
+    .logo {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .logo svg {
+      width: 100px;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Salão de Beleza</h1>
+    <p>Seu lugar para ficar ainda mais linda!</p>
+  </header>
+
+  <nav>
+    <a href="#servicos">Serviços</a>
+    <a href="#precos">Preços</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <div class="container">
+    <div class="logo">
+      <!-- Logo minimalista de uma mulher com cabelos ao vento -->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#ff69b4" stroke-width="2">
+        <path d="M10 30c8-10 20-10 25 0s10 20 25 20-15-15-15-25 15-20 10-30"></path>
+      </svg>
+    </div>
+
+    <h2 id="servicos">Serviços</h2>
+    <p>Oferecemos os melhores serviços de beleza para você:</p>
+    <ul>
+      <li>Corte de cabelo</li>
+      <li>Escova e penteados</li>
+      <li>Coloração e luzes</li>
+      <li>Manicure e pedicure</li>
+      <li>Tratamentos de pele</li>
+    </ul>
+
+    <h2 id="precos">Tabela de Preços</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Serviço</th>
+          <th>Preço</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Corte de cabelo</td>
+          <td>R$ 50,00</td>
+        </tr>
+        <tr>
+          <td>Escova</td>
+          <td>R$ 40,00</td>
+        </tr>
+        <tr>
+          <td>Manicure</td>
+          <td>R$ 30,00</td>
+        </tr>
+        <tr>
+          <td>Pedicure</td>
+          <td>R$ 35,00</td>
+        </tr>
+        <tr>
+          <td>Coloração</td>
+          <td>R$ 120,00</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2 id="contato">Contato</h2>
+    <p>Entre em contato conosco pelo telefone ou WhatsApp: <strong>(11) 99999-9999</strong></p>
+    <p>Ou visite-nos na Rua das Flores, 123 - São Paulo, SP.</p>
+  </div>
+
+  <footer>
+    <p>© 2024 Salão de Beleza. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
